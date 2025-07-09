@@ -1,0 +1,95 @@
+# Embold analysis files
+.embold/
+
+# Compiled object files
+*.o
+*.obj
+*.so
+*.dll
+*.dylib
+
+# Executable files
+*.exe
+anti_patterns_demo
+a.out
+
+# Debug files
+*.dSYM/
+*.pdb
+
+# Static library files
+*.a
+*.lib
+
+# Temporary files
+*.tmp
+*.temp
+temp_calculation.txt
+hardcoded_file.txt
+
+# Build directories
+build/
+bin/
+obj/
+debug/
+release/
+
+# IDE and editor files
+.vscode/
+.vs/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+build.log
+output.log
+
+# Package manager files
+conan.lock
+vcpkg_installed/
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# Static analysis output
+cppcheck.xml
+scan-build/
+*.sarif
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
+coverage/
+
+# Profiling files
+gmon.out
+*.prof
+
+# Core dumps
+core
+core.*
+
+# Backup files
+*.bak
+*.backup
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.7z
+
+# Documentation output
+docs/html/
+docs/latex/
+*.pdf
