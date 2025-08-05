@@ -22,6 +22,7 @@ public class CorporateHierarchyNavigator {
 
     public CorporateHierarchyNavigator(AccountAnalyzer accountAnalyzer) {
         this.accountAnalyzer = accountAnalyzer;
+        this.accountAnalyzer.getAnalyzerVersion();
     }
     
     /**
