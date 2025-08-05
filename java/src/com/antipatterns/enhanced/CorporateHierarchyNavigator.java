@@ -14,9 +14,14 @@ import java.util.*;
 public class CorporateHierarchyNavigator {
     
     private Company rootCompany;
+    private AccountAnalyzer accountAnalyzer;
     
     public CorporateHierarchyNavigator(Company company) {
         this.rootCompany = company;
+    }
+
+    public CorporateHierarchyNavigator(AccountAnalyzer accountAnalyzer) {
+        this.accountAnalyzer = accountAnalyzer;
     }
     
     /**
